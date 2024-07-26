@@ -4,7 +4,6 @@ RUN dotnet tool install --global dotnet-counters
 RUN dotnet tool install --global dotnet-coverage
 RUN dotnet tool install --global dotnet-dump
 RUN dotnet tool install --global dotnet-gcdump
-RUN dotnet tool install --global dotnet-monitor
 RUN dotnet tool install --global dotnet-trace
 RUN dotnet tool install --global dotnet-stack
 RUN dotnet tool install --global dotnet-symbol
