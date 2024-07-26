@@ -10,4 +10,6 @@ RUN dotnet tool install --global dotnet-symbol
 RUN dotnet tool install --global dotnet-sos
 RUN dotnet tool install --global dotnet-dsrouter
 
+COPY bashrc /root/.bashrc
+
 ENTRYPOINT ["tail", "-f", "/dev/null"]
